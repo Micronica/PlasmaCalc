@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/playercontrol">
+        <file>Icons/control_fastforward_16px_20775_easyicon.net.png</file>
+        <file>Icons/control_pause_16px_17822_easyicon.net.png</file>
+        <file>Icons/control_play_16px_14675_easyicon.net.png</file>
+        <file>Icons/control_rewind_16px_33885_easyicon.net.png</file>
+        <file>Icons/control_stop_16px_20376_easyicon.net.png</file>
+    </qresource>
+    <qresource prefix="/math">
+        <file>Icons/CodeCogsEqn-2.png</file>
+        <file>Icons/CodeCogsEqn-3.png</file>
+        <file>Icons/CodeCogsEqn-4.png</file>
+        <file>Icons/CodeCogsEqn-5.png</file>
+        <file>Icons/CodeCogsEqn-6.png</file>
+        <file>Icons/CodeCogsEqn.png</file>
+    </qresource>
+</RCC>

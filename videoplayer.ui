@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Videoplayer</class>
+ <widget class="QDialog" name="Videoplayer">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1081</width>
+    <height>786</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="icons.qrc">
+    <normaloff>:/icon/PlasmaCalc.icns</normaloff>:/icon/PlasmaCalc.icns</iconset>
+  </property>
+  <widget class="QVideoWidget" name="phi" native="true">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>50</y>
+     <width>300</width>
+     <height>300</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+  </widget>
+  <widget class="QVideoWidget" name="wi" native="true">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>390</y>
+     <width>300</width>
+     <height>300</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QVideoWidget" name="deltane" native="true">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>50</y>
+     <width>300</width>
+     <height>300</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QVideoWidget" name="ne" native="true">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>50</y>
+     <width>300</width>
+     <height>300</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QVideoWidget" name="vx" native="true">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>390</y>
+     <width>300</width>
+     <height>300</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QVideoWidget" name="vy" native="true">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>390</y>
+     <width>300</width>
+     <height>300</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>360</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="icons.qrc">:/math/Icons/CodeCogsEqn.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>700</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="icons.qrc">:/math/Icons/CodeCogsEqn-4.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>860</x>
+     <y>360</y>
+     <width>41</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="icons.qrc">:/math/Icons/CodeCogsEqn-3.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>360</y>
+     <width>21</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="icons.qrc">:/math/Icons/CodeCogsEqn-2.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>700</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="icons.qrc">:/math/Icons/CodeCogsEqn-5.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>870</x>
+     <y>700</y>
+     <width>21</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="icons.qrc">:/math/Icons/CodeCogsEqn-6.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="playButton">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>720</y>
+     <width>31</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: transparent;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/playercontrol/Icons/control_play_16px_14675_easyicon.net.png</normaloff>:/playercontrol/Icons/control_play_16px_14675_easyicon.net.png</iconset>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pauseButton">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>720</y>
+     <width>31</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: transparent;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/playercontrol/Icons/control_pause_16px_17822_easyicon.net.png</normaloff>:/playercontrol/Icons/control_pause_16px_17822_easyicon.net.png</iconset>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="stopButton">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>720</y>
+     <width>31</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: transparent;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/playercontrol/Icons/control_stop_16px_20376_easyicon.net.png</normaloff>:/playercontrol/Icons/control_stop_16px_20376_easyicon.net.png</iconset>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QSlider" name="slider">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>725</y>
+     <width>751</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QVideoWidget</class>
+   <extends>QWidget</extends>
+   <header>qvideowidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>
